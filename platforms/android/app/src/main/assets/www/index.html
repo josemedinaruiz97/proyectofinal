@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+<head>
+    <!--
+    Customize this policy to fit your own app's needs. For more guidance, see:
+        https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+    Some notes:
+        * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+        * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+        * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+            * Enable inline JS: add 'unsafe-inline' to default-src
+    -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="contenedor">
+    <div class="ui grid">
+        <div class="sixteen wide column contenedor_header">
+            <h2 class="ui header cabecera">
+                <div class="btn_primario"></div>
+                <div class="header">Inicio</div>
+                <div class="btn_secundario"></div>
+            </h2>
+        </div>
+    </div>
+    <form class="ui form grid alineado" action="https://proyectofinal-josemedinaruiz97.c9users.io/login.php"
+          method="post" id="frlogin" style="height: 80%">
+        <div class="sixteen wide column">
+            <img class="ui tiny image" src=" img/logo2.jpg" style="margin: 0 auto">
+        </div>
+        <div class="sixteen wide column">
+            <div class="field">
+                <label>E-mail</label>
+                <input type="email" name="email" placeholder="Introduce tu correo">
+            </div>
+        </div>
+        <div class="sixteen wide column">
+            <div class="field">
+                <label>Contraseña</label>
+                <input type="password" name="password" placeholder="Introduce tu contraseña">
+            </div>
+        </div>
+        <div class="sixteen wide column" style="text-align: center;">
+            <button class="ui primary submit button" type="submit">Log In</button>
+            <button class="ui button sign_in">Sign In</button>
+        </div>
+        <div class="sixteen wide column">
+            <div class="ui error message">
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/jquery.ajax-cross-origin.min.js"></script>
+<script type="text/javascript" src="js/jquery.serialize-object.min.js"></script>
+<script type="text/javascript" src="js/sweetalert2.all.js"></script>
+<script type="text/javascript" src="js/semantic.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>

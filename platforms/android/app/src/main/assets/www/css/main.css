@@ -1,0 +1,144 @@
+.contenedor{
+    height: 100%;
+}
+.ui.form.grid{
+    padding-left: 30px;
+}
+#frcontact{
+    margin-top: 0!important;
+}
+.content_input{
+    justify-content: center;
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.content.user {
+    display: flex;
+}
+.content_message{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("https://1.bp.blogspot.com/--HRrBFKPGpE/WUokeOboi0I/AAAAAAAAAEM/v-lyI6YmERYF0YAywcD_9CKMjHxfGzE6gCLcBGAs/s1600/WhatsApp-Wallpaper-30.jpg");
+}
+.content_input .field button{
+    margin-left: 10px;
+}
+.contenedor_usuarios{
+    padding: 30px;
+}
+.contacto{
+    width: 100%!important;
+    margin-bottom: 10px!important;
+}
+.avatar.user{
+    width: 53px!important;
+    height: 53px!important;
+}
+div.image{
+    width: 57px!important;
+    height: 53px!important;
+}
+.contenido.user{
+    margin: auto;
+}
+.imagen_usuario {
+    text-align: center;
+}
+.imagen_usuario img{
+    height: 150px!important;
+}
+.header.cabecera{
+    /*background-color: #F6F6F6;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 53px;
+}
+.cabecera .icon{
+    color: rgb(79, 185, 238);
+}
+.cabecera{
+    color: rgb(79, 185, 238)!important;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.center.aligned.header{
+    font-weight: bold;
+}
+.ui.relaxed.divided.list{
+    padding: 30px;
+}
+.container_chat {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+.container_chat::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container_chat img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.container_chat img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+.time-right {
+    float: right;
+    color: #aaa;
+}
+.time-left {
+    float: left;
+    color: #999;
+}
+.notification{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+}
+
+@media (min-width: 765px){
+    .ui.form.grid.alineado{
+        width: 80%;
+        left: 50%;
+        top: 50%;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+}
+@media (max-width: 764px) {
+    .ui.form.grid.alineado {
+        justify-content: center;
+        align-content: center;
+        height: 100%;
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    .notification{
+        text-align: right;
+    }
+}
+
+@media (min-width: 555px) {
+    .content.user{
+        display: flex;
+    }
+}
