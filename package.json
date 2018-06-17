@@ -21,7 +21,7 @@
         "cordova-plugin-inappbrowser": "^3.0.0",
         "cordova-plugin-ionic-keyboard": "^2.1.2",
         "cordova-plugin-ios-camera-permissions": "^1.2.0",
-        "cordova-plugin-keyboard": "^1.2.0",
+        "cordova-plugin-keyboard": "git+https://github.com/cjpearson/cordova-plugin-keyboard.git",
         "cordova-plugin-local-notification": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
         "cordova-plugin-media-capture": "^3.0.2",
         "cordova-plugin-network-information": "^2.0.1",

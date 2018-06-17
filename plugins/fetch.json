@@ -106,7 +106,7 @@
   "cordova-plugin-keyboard": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-keyboard@^1.2.0"
+      "id": "https://github.com/cjpearson/cordova-plugin-keyboard"
     },
     "is_top_level": true,
     "variables": {}

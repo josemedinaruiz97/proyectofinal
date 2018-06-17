@@ -98,11 +98,131 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		9r5jPdruQIM1Q8cHGDNEYo6v13U=
+		6YtgbLXj9c1uRUH0DYh3lyXOGw0=
+		</data>
+		<key>CDVCapture.bundle/controls_bg.png</key>
+		<data>
+		xIN1nlKT1Cv/7P0RRRjRiqDmgcM=
+		</data>
+		<key>CDVCapture.bundle/controls_bg@2x.png</key>
+		<data>
+		/JjoVIaovIBao+GcSbUR+J/uH80=
+		</data>
+		<key>CDVCapture.bundle/controls_bg@2x~ipad.png</key>
+		<data>
+		WAxs/wl5r3Vdmfe+LEOoC35D3kw=
+		</data>
+		<key>CDVCapture.bundle/controls_bg~ipad.png</key>
+		<data>
+		dXhIxrANYjO4ggr9DvL4LugtNtw=
+		</data>
+		<key>CDVCapture.bundle/de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6I3SFoWWUS6apP/Bme40Jk3hVOo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CDVCapture.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CeYtR15hSvjyb4M2WE1Jff1QqiE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CDVCapture.bundle/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7nM4Esa6Sb4xFrW0Yaq3LAoki0k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CDVCapture.bundle/microphone-568h@2x~iphone.png</key>
+		<data>
+		KFv6FATezeZlzYYkfkMd8cELKyk=
+		</data>
+		<key>CDVCapture.bundle/microphone.png</key>
+		<data>
+		EB4Z4Ucd46Fq5XyJ7XtU0vIKQDE=
+		</data>
+		<key>CDVCapture.bundle/microphone@2x.png</key>
+		<data>
+		8wPpeqT7rFRPwKnLKeNLp3XDTvs=
+		</data>
+		<key>CDVCapture.bundle/microphone@2x~ipad.png</key>
+		<data>
+		IIs7cGjL1SwLOj/hgHjz6FAmb1g=
+		</data>
+		<key>CDVCapture.bundle/microphone~ipad.png</key>
+		<data>
+		zHKiKteWSwFDKqF6l4RiZSnib1A=
+		</data>
+		<key>CDVCapture.bundle/record_button.png</key>
+		<data>
+		PbKFvkKJyr/3l1jB+RtSp4xcbJ4=
+		</data>
+		<key>CDVCapture.bundle/record_button@2x.png</key>
+		<data>
+		c5mCMIk/dVEzWqpx5bhd7/+ShUw=
+		</data>
+		<key>CDVCapture.bundle/record_button@2x~ipad.png</key>
+		<data>
+		63F6LZKIHrJuNCXGXZuIt0A5kv8=
+		</data>
+		<key>CDVCapture.bundle/record_button~ipad.png</key>
+		<data>
+		HC/YPukmDtEt6OAQYxLdkxNyc7Y=
+		</data>
+		<key>CDVCapture.bundle/recording_bg.png</key>
+		<data>
+		ZNagG9STNHWMhmxadGoaHtc+uI8=
+		</data>
+		<key>CDVCapture.bundle/recording_bg@2x.png</key>
+		<data>
+		iKckW54kjD4zsIDtHGJsxQzF1Wg=
+		</data>
+		<key>CDVCapture.bundle/recording_bg@2x~ipad.png</key>
+		<data>
+		eWYnNM5t90TEdIlwhn+mO1uV0+w=
+		</data>
+		<key>CDVCapture.bundle/recording_bg~ipad.png</key>
+		<data>
+		jk3QF8bqLIAYUFuhEngOexBI0g0=
+		</data>
+		<key>CDVCapture.bundle/se.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I5I3LPH+OWZTsU4WPRv8Nc7P3uE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CDVCapture.bundle/stop_button.png</key>
+		<data>
+		1FeOIJC/ST8sLCXJcX1kRHrdfrg=
+		</data>
+		<key>CDVCapture.bundle/stop_button@2x.png</key>
+		<data>
+		oPThgxKhZvW3158u1HLALLJKPeU=
+		</data>
+		<key>CDVCapture.bundle/stop_button@2x~ipad.png</key>
+		<data>
+		tKI2Zkc7WAHZgX8uywAdRZ2zCtw=
+		</data>
+		<key>CDVCapture.bundle/stop_button~ipad.png</key>
+		<data>
+		BwsYSepAdB0lzFaojBFNr2yMphI=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		5BGKExXf1jWER+ri0Aht4k+fTmU=
+		VoDSi9MHvDp+Qm4e0tap78dXgXA=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -110,7 +230,11 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		rIoee767oz+3fPn2nG1oMHchCek=
+		eziHrb7ydnLO2azQzyayUmsFfGY=
+		</data>
+		<key>CDVNotification.bundle/beep.wav</key>
+		<data>
+		/kSUVvLLJcbtfXnxFEolil3/NRk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -190,7 +314,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		reWR8FeUiQX5nyTS5qiuFFv0YRQ=
+		Q2Z3iwCRCQD2glhWzUdFcjwSQtA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -808,22 +932,305 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9r5jPdruQIM1Q8cHGDNEYo6v13U=
+			6YtgbLXj9c1uRUH0DYh3lyXOGw0=
 			</data>
 			<key>hash2</key>
 			<data>
-			CcyT279I/4K/rLDxXb3bs8crrz3QQJsOnC+P+mHewQc=
+			QMn7ESAXhJvLLDd0/rxnx8jKmuTjbTYKPjdREuwjFTA=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/controls_bg.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xIN1nlKT1Cv/7P0RRRjRiqDmgcM=
+			</data>
+			<key>hash2</key>
+			<data>
+			pzhElGcS59QZoMzcxLzZ3ihChcpx1dKisEKTO9L+gU8=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/controls_bg@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/JjoVIaovIBao+GcSbUR+J/uH80=
+			</data>
+			<key>hash2</key>
+			<data>
+			yX0ZEoukaqa6a/G1ITsB+M1bxBo8kEZpwe5CaFLe5Qo=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/controls_bg@2x~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WAxs/wl5r3Vdmfe+LEOoC35D3kw=
+			</data>
+			<key>hash2</key>
+			<data>
+			P/0WElEccH2B87gz99GH+YKowhYCuk+kDoyGpOMI4B8=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/controls_bg~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dXhIxrANYjO4ggr9DvL4LugtNtw=
+			</data>
+			<key>hash2</key>
+			<data>
+			QdnuiJAoK3KNyeZbkuIME7+vtc8YwT4Z9ZFNBaLaCOc=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6I3SFoWWUS6apP/Bme40Jk3hVOo=
+			</data>
+			<key>hash2</key>
+			<data>
+			12OwJvdzV69Rz/HjgNu0z1i4Q4Tkd+mA/5s2/W+84sE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CDVCapture.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CeYtR15hSvjyb4M2WE1Jff1QqiE=
+			</data>
+			<key>hash2</key>
+			<data>
+			QzTKMCoK8jYV/wgVMhyVe2ZYcwl9FivIjXfsltW4bGs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CDVCapture.bundle/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7nM4Esa6Sb4xFrW0Yaq3LAoki0k=
+			</data>
+			<key>hash2</key>
+			<data>
+			Pkr9skNzDkim9JDW/qdSnZd8FBa6MCF+MG44DT8Jjvs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CDVCapture.bundle/microphone-568h@2x~iphone.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KFv6FATezeZlzYYkfkMd8cELKyk=
+			</data>
+			<key>hash2</key>
+			<data>
+			+LtqEOvbRurYmhDXrOVgMkCT9d4spaoWYgX99H38rjk=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/microphone.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EB4Z4Ucd46Fq5XyJ7XtU0vIKQDE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ki7J7fDU22iRmn3MLvJASDo9qhK/AVkC/0FMlcbYsPk=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/microphone@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8wPpeqT7rFRPwKnLKeNLp3XDTvs=
+			</data>
+			<key>hash2</key>
+			<data>
+			LUN6VoFWPx9Pj4AgzMbdZ/FVdBCyh628NudODtDTM2E=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/microphone@2x~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IIs7cGjL1SwLOj/hgHjz6FAmb1g=
+			</data>
+			<key>hash2</key>
+			<data>
+			BL1a49ZOXQuHtyGvMmShZ260hF4B86Pd5v7Foc4ERUg=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/microphone~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zHKiKteWSwFDKqF6l4RiZSnib1A=
+			</data>
+			<key>hash2</key>
+			<data>
+			xngVoWed8n+QO2TwhqYFFYIbe4jDviXhzPvEwAsyJF8=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/record_button.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PbKFvkKJyr/3l1jB+RtSp4xcbJ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			KWr4CRSCdktogWF9dvF46TFeWgOsvJ/rZaHw+BWofEk=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/record_button@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c5mCMIk/dVEzWqpx5bhd7/+ShUw=
+			</data>
+			<key>hash2</key>
+			<data>
+			is/Sms3nhyPHnpBZdR5aIRuVNv1aJ9BEkeSF0pT9vMo=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/record_button@2x~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			63F6LZKIHrJuNCXGXZuIt0A5kv8=
+			</data>
+			<key>hash2</key>
+			<data>
+			KA8XBZgqeUvq+ticlsoDYwlDs+JCBVtTW1XVJcXgvkA=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/record_button~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HC/YPukmDtEt6OAQYxLdkxNyc7Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			s69IhqmtGqtKhbO+zCmVwfzxtHop/aPrC+O/TOmzBbQ=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/recording_bg.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZNagG9STNHWMhmxadGoaHtc+uI8=
+			</data>
+			<key>hash2</key>
+			<data>
+			lzRurVkKJFoDA6Or39Dhgb/ZeoXy/l6XoF6hI7kND/4=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/recording_bg@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iKckW54kjD4zsIDtHGJsxQzF1Wg=
+			</data>
+			<key>hash2</key>
+			<data>
+			SijySQhe7KwkzHMo/PeJTfTuMNcq+qaP/jCSjv8LBD4=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/recording_bg@2x~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eWYnNM5t90TEdIlwhn+mO1uV0+w=
+			</data>
+			<key>hash2</key>
+			<data>
+			C/roseZ5BPwJEoZ0ZREYjcQB1Zn49XNiXDKrxHeysw0=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/recording_bg~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jk3QF8bqLIAYUFuhEngOexBI0g0=
+			</data>
+			<key>hash2</key>
+			<data>
+			WM7H14n1RGxB9PjFI/u87fwOAC62nS7sqlNuy4ZblEc=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/se.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I5I3LPH+OWZTsU4WPRv8Nc7P3uE=
+			</data>
+			<key>hash2</key>
+			<data>
+			D1lCMCWWYXSKLCXmaCzQbL9U0I9Bplo56efc+rNcN3g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CDVCapture.bundle/stop_button.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1FeOIJC/ST8sLCXJcX1kRHrdfrg=
+			</data>
+			<key>hash2</key>
+			<data>
+			rl+Jx8iU67+OIy/Sg1GxugV0qXBSDZEfcuqYSFVnmS4=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/stop_button@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oPThgxKhZvW3158u1HLALLJKPeU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Jkk+ZDLN1HawV0A2tZ7dnbKs4BerHJFp+VR6lPEqWOc=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/stop_button@2x~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tKI2Zkc7WAHZgX8uywAdRZ2zCtw=
+			</data>
+			<key>hash2</key>
+			<data>
+			T4vzQNcm9vtuLl7MulXCR5dtEq47OB5opMkLIwHmVZY=
+			</data>
+		</dict>
+		<key>CDVCapture.bundle/stop_button~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BwsYSepAdB0lzFaojBFNr2yMphI=
+			</data>
+			<key>hash2</key>
+			<data>
+			ujMJLFyrE0b4sIn4ZlGGwsltI/9/hQjBy1IUfEq58Y8=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5BGKExXf1jWER+ri0Aht4k+fTmU=
+			VoDSi9MHvDp+Qm4e0tap78dXgXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			klysJtkFhFPHmGqsamkJTYFZ3gxMJiiM8lq5jzh3J2s=
+			SQ+VBuA3+8sjOG6xi9hsP0ft/N9LLJUN4e/nsEB8jQg=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -841,11 +1248,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rIoee767oz+3fPn2nG1oMHchCek=
+			eziHrb7ydnLO2azQzyayUmsFfGY=
 			</data>
 			<key>hash2</key>
 			<data>
-			BkCil43S+JXfIQyAh86RU7+lojCPMtbmFUAuEdzX+M0=
+			Trc2DkD2Whs0sRPRdU/ldOhGdsv5mF1GodgXpRot/Xk=
+			</data>
+		</dict>
+		<key>CDVNotification.bundle/beep.wav</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/kSUVvLLJcbtfXnxFEolil3/NRk=
+			</data>
+			<key>hash2</key>
+			<data>
+			KfYd4hFlyPwinBGKi4ruYae1MyeQ2TKrPJvIngKdC38=
 			</data>
 		</dict>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
@@ -1050,11 +1468,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			reWR8FeUiQX5nyTS5qiuFFv0YRQ=
+			Q2Z3iwCRCQD2glhWzUdFcjwSQtA=
 			</data>
 			<key>hash2</key>
 			<data>
-			PjZiUKX3oBrbYJr8Fa8MUGI5TGfQRqt8fL9HVMeKqgg=
+			Id5zjBNlvj/y/cxuJQWzPm57zj3tJAdRIUVR18dPJDw=
 			</data>
 		</dict>
 		<key>config.xml</key>
