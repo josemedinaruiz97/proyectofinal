@@ -354,6 +354,14 @@ module.exports = [
     "clobbers": [
       "NetworkActivityIndicator"
     ]
+  },
+  {
+    "id": "cordova-plugin-ionic-keyboard.keyboard",
+    "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
+    "pluginId": "cordova-plugin-ionic-keyboard",
+    "clobbers": [
+      "window.Keyboard"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -372,7 +380,8 @@ module.exports.metadata =
   "cordova-plugin-network-information": "2.0.1",
   "cordova-plugin-networkactivityindicator": "0.1.1",
   "cordova-plugin-vibration": "3.1.0",
-  "cordova-plugin-whitelist": "1.3.3"
+  "cordova-plugin-whitelist": "1.3.3",
+  "cordova-plugin-ionic-keyboard": "2.1.2"
 };
 // BOTTOM OF METADATA
 });

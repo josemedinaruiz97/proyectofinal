@@ -2,25 +2,34 @@
     height: 100%;
 }
 .ui.form.grid{
-    padding: 30px;
-    padding-left: 60px;
+    padding-left: 30px;
+}
+#frcontact{
+    margin-top: 0!important;
 }
 .content_input{
     justify-content: center;
     align-content: center;
     padding-left: 50px;
     padding-right: 30px;
-    margin-top: 30px;
+}
+.content.user {
+    display: flex;
 }
 .content_message{
     padding-left: 30px;
     padding-right: 30px;
+    background-image: url("../img/fondo.jpg");
 }
 .content_input .field button{
     margin-left: 10px;
 }
+.contenedor_usuarios{
+    padding: 30px;
+}
 .contacto{
     width: 100%!important;
+    margin-bottom: 10px!important;
 }
 .avatar.user{
     width: 53px!important;
@@ -40,11 +49,20 @@ div.image{
     height: 150px!important;
 }
 .header.cabecera{
-    background-color: #4D7198;
+    /*background-color: #F6F6F6;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 53px;
+}
+.cabecera .icon{
+    color: rgb(79, 185, 238);
+}
+.cabecera{
+    color: rgb(79, 185, 238)!important;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 .center.aligned.header{
     font-weight: bold;
@@ -59,18 +77,15 @@ div.image{
     padding: 10px;
     margin: 10px 0;
 }
-
 .darker {
     border-color: #ccc;
     background-color: #ddd;
 }
-
 .container_chat::after {
     content: "";
     clear: both;
     display: table;
 }
-
 .container_chat img {
     float: left;
     max-width: 60px;
@@ -78,21 +93,23 @@ div.image{
     margin-right: 20px;
     border-radius: 50%;
 }
-
 .container_chat img.right {
     float: right;
     margin-left: 20px;
     margin-right:0;
 }
-
 .time-right {
     float: right;
     color: #aaa;
 }
-
 .time-left {
     float: left;
     color: #999;
+}
+.notification{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
 }
 
 @media (min-width: 765px){

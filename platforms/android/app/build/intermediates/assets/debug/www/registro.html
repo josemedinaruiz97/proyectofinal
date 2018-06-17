@@ -37,10 +37,19 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
-    <title>Login</title>
+    <title>Registro</title>
 </head>
 <body>
 <div class="contenedor">
+    <div class="ui grid">
+        <div class="sixteen wide column contenedor_header">
+            <h2 class="ui header cabecera">
+                <div class="btn_primario"></div>
+                <div class="header">Registro</div>
+                <div class="btn_secundario"></div>
+            </h2>
+        </div>
+    </div>
     <form class="ui form grid alineado" action="https://proyectofinal-josemedinaruiz97.c9users.io/registerUser.php" method="post"
           id="fregister">
         <div class="sixteen wide column">
@@ -76,8 +85,8 @@
                 <button class="ui button send_foto">Subir foto</button>
             </div>
             <div class="field">
-                <button class="ui submit primary button" type="submit">Sign In</button>
-                <button class="negative ui button cancel">Cancel</button>
+                <button class="ui submit primary button" type="submit">Registrar</button>
+                <button class="negative ui button cancel">Cancelar</button>
             </div>
         </div>
         <div class="sixteen wide column">
@@ -87,12 +96,13 @@
 
     </form>
 </div>
-<script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 <script type="text/javascript" src="js/jquery.ajax-cross-origin.min.js"></script>
 <script type="text/javascript" src="js/jquery.serialize-object.min.js"></script>
 <script type="text/javascript" src="js/sweetalert2.all.js"></script>
 <script type="text/javascript" src="js/semantic.min.js"></script>
 <script type="text/javascript" src="js/registro.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
 </body>
 </html>

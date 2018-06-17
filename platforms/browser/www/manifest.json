@@ -1,11 +1,11 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Proyecto",
-  "short_name": "Proyecto",
+  "name": "InstantMessage",
+  "short_name": "InstantMessage",
   "version": "jose.medina",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Apache Cordova Team",
+  "description": "Este es un chat instantaneo para comunicarse entre varias personas",
+  "author": "Jose Medina Ruiz",
   "icons": [],
   "start_url": "index.html"
 }

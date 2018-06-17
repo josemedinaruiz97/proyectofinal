@@ -12,12 +12,12 @@
         "source": "/Users/josemedinaruiz/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/290827ab436ea3e7b0b5b7b74a2a6814/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
-        "merged": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/Users/josemedinaruiz/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/290827ab436ea3e7b0b5b7b74a2a6814/res/drawable-v21/notification_action_background.xml"
-    },
-    {
         "merged": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
         "source": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/Users/josemedinaruiz/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/290827ab436ea3e7b0b5b7b74a2a6814/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -222,6 +222,10 @@
     {
         "merged": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/build/intermediates/res/merged/debug/xml_camera_provider_paths.xml.flat",
         "source": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/src/main/res/xml/camera_provider_paths.xml"
+    },
+    {
+        "merged": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/build/intermediates/res/merged/debug/drawable_cursor.xml.flat",
+        "source": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/src/main/res/drawable/cursor.xml"
     },
     {
         "merged": "/Users/josemedinaruiz/Desktop/proyecto/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",

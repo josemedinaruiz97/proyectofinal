@@ -51,9 +51,9 @@
             "cordova-plugin-ionic-keyboard": {}
         },
         "platforms": [
-            "ios",
             "browser",
-            "android"
+            "android",
+            "ios"
         ]
     }
 }
