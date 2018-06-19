@@ -19,6 +19,9 @@ var app = {
                     var form_data = new FormData();
                     var valores=frm.serializeObject();
                     $.each(valores,function (i,e) {
+                        if(i=="password"){
+                            e=$.md5(e);
+                        }
                         form_data.append(i,e);
                     });
                     if(imagen!==null){

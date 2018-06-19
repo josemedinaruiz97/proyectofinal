@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		6YtgbLXj9c1uRUH0DYh3lyXOGw0=
+		1x1st6gHn78C5/RufpKD4DA0UWI=
 		</data>
 		<key>CDVCapture.bundle/controls_bg.png</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		VoDSi9MHvDp+Qm4e0tap78dXgXA=
+		5yqOLxufTYrndy46oMfuGBvI1u8=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		eziHrb7ydnLO2azQzyayUmsFfGY=
+		k60Dm11FU/wInYEvOhM/mjqdOLU=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -314,7 +314,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		Q2Z3iwCRCQD2glhWzUdFcjwSQtA=
+		9HD3gRVDYzLr2KhkVKdhVQiVB+4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -322,7 +322,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		WcH7TKtCqTQxB/5GTSPEugb9KA8=
+		1vmiMiNQK3YaTKFam/5OhWStN5Y=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -330,11 +330,11 @@
 		</data>
 		<key>www/conversacion.html</key>
 		<data>
-		0DcwRfNr9cKA1w3/Tccf6dUT1is=
+		COyzVLeN1MdLMi0K49ZnVb2hqZ4=
 		</data>
 		<key>www/conversaciones.html</key>
 		<data>
-		Vahx2BWSoUIDhtmNdSEuhZkE7MU=
+		QJCHvtnfwsjivbA+ugGon5V3kTk=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -358,7 +358,7 @@
 		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		HeydOChuaB7enJuhlQ7eBJx7vd8=
+		0aNCh0Sw5J5cQafJDDdeWsO+UNM=
 		</data>
 		<key>www/css/index.css</key>
 		<data>
@@ -430,15 +430,15 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		KIEcjEJHpM8PsDski11Cswokocs=
+		UcfqZq2P02YfobnwIC73YBEs5uE=
 		</data>
 		<key>www/js/conversacion.js</key>
 		<data>
-		N/2a5ao0qeuVaWU8YeWYh+R1EPo=
+		KEGSKHhZnkP3RqJgxfFLOeDBBg8=
 		</data>
 		<key>www/js/conversaciones.js</key>
 		<data>
-		c9yhreIxZO6MJjOgprcgkIClA9U=
+		EoPnJme61x1OFLnuuOeB/pQT+HU=
 		</data>
 		<key>www/js/functions.js</key>
 		<data>
@@ -458,7 +458,11 @@
 		</data>
 		<key>www/js/login.js</key>
 		<data>
-		J6N4VOq85MVsgDrmIWCUSA6A8SQ=
+		TCjrBLNfSNzWw48htMA9iDkyLjA=
+		</data>
+		<key>www/js/md5.js</key>
+		<data>
+		Gwo3hMKOt/OmOBQhNyvlZ5lamxg=
 		</data>
 		<key>www/js/moment.js</key>
 		<data>
@@ -466,7 +470,7 @@
 		</data>
 		<key>www/js/registro.js</key>
 		<data>
-		rrH2q0UQVX8FtjfLkrVOffvFKQg=
+		HjHz5CRV2KVh15J0aQ88eKWgjUE=
 		</data>
 		<key>www/js/semantic.min.js</key>
 		<data>
@@ -482,7 +486,7 @@
 		</data>
 		<key>www/js/vistausuario.js</key>
 		<data>
-		FBs7mEjums/MDxeAlCcU48r1DPM=
+		EqwlIxpQeP8f4LkFExdP5c08SH0=
 		</data>
 		<key>www/plugins/cordova-plugin-badge/www/badge.js</key>
 		<data>
@@ -604,10 +608,6 @@
 		<data>
 		04BAdz7ulKVCu3lMDwCrtzoPTJA=
 		</data>
-		<key>www/plugins/cordova-plugin-ionic-keyboard/www/ios/keyboard.js</key>
-		<data>
-		ytdSzC8ehZME3Jh5ZGuh52aO+FA=
-		</data>
 		<key>www/plugins/cordova-plugin-keyboard/www/keyboard.js</key>
 		<data>
 		WyLdl2pt0J966YOuExEHxZZbUuw=
@@ -666,7 +666,7 @@
 		</data>
 		<key>www/registro.html</key>
 		<data>
-		AfGszna2EgkMrK8PJ43xsNn4Lwc=
+		1qjdNzDNF5XNj5pNRowh/ZDSZig=
 		</data>
 		<key>www/vistausuario.html</key>
 		<data>
@@ -932,11 +932,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6YtgbLXj9c1uRUH0DYh3lyXOGw0=
+			1x1st6gHn78C5/RufpKD4DA0UWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			QMn7ESAXhJvLLDd0/rxnx8jKmuTjbTYKPjdREuwjFTA=
+			X0YU38fiC9xj7LvXpBs+Edd3ZGo9ykzcWoTse6HIU4A=
 			</data>
 		</dict>
 		<key>CDVCapture.bundle/controls_bg.png</key>
@@ -1226,11 +1226,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VoDSi9MHvDp+Qm4e0tap78dXgXA=
+			5yqOLxufTYrndy46oMfuGBvI1u8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SQ+VBuA3+8sjOG6xi9hsP0ft/N9LLJUN4e/nsEB8jQg=
+			FCBRfpSCXWQ47QshNRRAQjj1rNWSkjErzAEWd7v/2zU=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1248,11 +1248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eziHrb7ydnLO2azQzyayUmsFfGY=
+			k60Dm11FU/wInYEvOhM/mjqdOLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Trc2DkD2Whs0sRPRdU/ldOhGdsv5mF1GodgXpRot/Xk=
+			FaYgvs/jKLqdJ2ySZ3gyoKZsuRZAyyypJccuM4wN1G0=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -1468,22 +1468,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q2Z3iwCRCQD2glhWzUdFcjwSQtA=
+			9HD3gRVDYzLr2KhkVKdhVQiVB+4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Id5zjBNlvj/y/cxuJQWzPm57zj3tJAdRIUVR18dPJDw=
+			oBZlff5vPTdFDdTm3g99xNb3eDUgG/StjNrO3FbRcew=
 			</data>
 		</dict>
 		<key>config.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WcH7TKtCqTQxB/5GTSPEugb9KA8=
+			1vmiMiNQK3YaTKFam/5OhWStN5Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			IV6sR7UlLZmChJOVobMW3FS+2U507A+50R0OFkTUdfs=
+			V5Y/+q9k1eyBPJnhEOaMyAof1di63eBQK1+Lef/7j7o=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -1501,22 +1501,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0DcwRfNr9cKA1w3/Tccf6dUT1is=
+			COyzVLeN1MdLMi0K49ZnVb2hqZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			alBCkmmV6nZ7QDBkf+qEUbwJ18DFveeGcagjnG/s1XE=
+			NH4NfOQOEH90rN9h4LFCQZSf5IWBxduJOy5BQS7rEwU=
 			</data>
 		</dict>
 		<key>www/conversaciones.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Vahx2BWSoUIDhtmNdSEuhZkE7MU=
+			QJCHvtnfwsjivbA+ugGon5V3kTk=
 			</data>
 			<key>hash2</key>
 			<data>
-			F9hY1fOdSuWexSbdpKxxSerJlgFtwyDgp7MU9BUp/lc=
+			cLwtXeIgumYri6rUpqrclHqyeu2lkSvmXsx+jKUM46o=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
@@ -1578,11 +1578,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HeydOChuaB7enJuhlQ7eBJx7vd8=
+			0aNCh0Sw5J5cQafJDDdeWsO+UNM=
 			</data>
 			<key>hash2</key>
 			<data>
-			uEeRb1hp9aGt48mUnuXWW4qc8IA0uJPTvvRl2a/1Jew=
+			zqTq+Iy21eH2RGoy94OzRUj308yBbA9JjTVT22fV5+E=
 			</data>
 		</dict>
 		<key>www/css/index.css</key>
@@ -1776,33 +1776,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KIEcjEJHpM8PsDski11Cswokocs=
+			UcfqZq2P02YfobnwIC73YBEs5uE=
 			</data>
 			<key>hash2</key>
 			<data>
-			WF5sCRTS0fxcniDHOLxvEeoQaBiNB4yzSF3m4FRM2Z8=
+			mihUPLW28jutCwPUZMDG3ohewYe8lFd8Ov8acal0vYg=
 			</data>
 		</dict>
 		<key>www/js/conversacion.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N/2a5ao0qeuVaWU8YeWYh+R1EPo=
+			KEGSKHhZnkP3RqJgxfFLOeDBBg8=
 			</data>
 			<key>hash2</key>
 			<data>
-			qgiOkRERdszU0c7AGuXnOk9sDw9kkSS7kIx1U7+O3Hw=
+			lJtjJEoql+r0dSfq6kKu3qY1QJLxXP3PDVQuS3nLLl0=
 			</data>
 		</dict>
 		<key>www/js/conversaciones.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c9yhreIxZO6MJjOgprcgkIClA9U=
+			EoPnJme61x1OFLnuuOeB/pQT+HU=
 			</data>
 			<key>hash2</key>
 			<data>
-			U+Niqa8WDIdDsolU2PyGELkQBZaz0ozIdtWlkjtehHo=
+			kLJ2ypXMjx2r7ykz4F7ZaCCQkKYQ1oixG7LhjgU8h5Y=
 			</data>
 		</dict>
 		<key>www/js/functions.js</key>
@@ -1853,11 +1853,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J6N4VOq85MVsgDrmIWCUSA6A8SQ=
+			TCjrBLNfSNzWw48htMA9iDkyLjA=
 			</data>
 			<key>hash2</key>
 			<data>
-			MrUg76fRMmf/blSZHv0dKanOIfwe+2RWBADxwDOJaGk=
+			7gWOngr/tu/1scRhgH+g45B0+qRifULDMrVTL0m/ZZ8=
+			</data>
+		</dict>
+		<key>www/js/md5.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Gwo3hMKOt/OmOBQhNyvlZ5lamxg=
+			</data>
+			<key>hash2</key>
+			<data>
+			pC/EBXeUJzi2wg90z5DkmRw+VvySmOWo+1dfw0TPOXQ=
 			</data>
 		</dict>
 		<key>www/js/moment.js</key>
@@ -1875,11 +1886,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rrH2q0UQVX8FtjfLkrVOffvFKQg=
+			HjHz5CRV2KVh15J0aQ88eKWgjUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			sY0jJVhc9t3O/tEhEWOb9dbHQHI9R3jmbzqwMU2Ktmw=
+			Uu3czrEqkbD6vO0GAxaXiwB+S5B3XJWk2b2YEWfufeM=
 			</data>
 		</dict>
 		<key>www/js/semantic.min.js</key>
@@ -1919,11 +1930,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FBs7mEjums/MDxeAlCcU48r1DPM=
+			EqwlIxpQeP8f4LkFExdP5c08SH0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RNxDL5lfhULoirHJXYaV8/vnayUf6Nuhy/EwVetIqvg=
+			RwSS7dHko/UjOZFVoxDprK6mJ7BUnuuyGFHxnqvS7II=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-badge/www/badge.js</key>
@@ -2256,17 +2267,6 @@
 			FCu11gkLUdAX8FSq0fp81oMiQpBkqbX6AbJfNn5xmfs=
 			</data>
 		</dict>
-		<key>www/plugins/cordova-plugin-ionic-keyboard/www/ios/keyboard.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ytdSzC8ehZME3Jh5ZGuh52aO+FA=
-			</data>
-			<key>hash2</key>
-			<data>
-			sdydIZlxz57/SfsGJg6RXsma+LPErNXZsggL6p8p/sM=
-			</data>
-		</dict>
 		<key>www/plugins/cordova-plugin-keyboard/www/keyboard.js</key>
 		<dict>
 			<key>hash</key>
@@ -2425,11 +2425,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AfGszna2EgkMrK8PJ43xsNn4Lwc=
+			1qjdNzDNF5XNj5pNRowh/ZDSZig=
 			</data>
 			<key>hash2</key>
 			<data>
-			GHnuOXFLa8YuUAXZwoiUifGECkNNDOyvGAOPCMynyoA=
+			kyLX9KmOYbhf67YUVeCcbhB0TFK576c5JZreVSd66Jg=
 			</data>
 		</dict>
 		<key>www/vistausuario.html</key>

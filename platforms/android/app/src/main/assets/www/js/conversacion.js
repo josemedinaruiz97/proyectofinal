@@ -19,41 +19,9 @@ var app = {
             getFoto(id_sender);
             getAllMessages(id_user,id_sender);
             getMessages(id_user,id_sender);
+            foto=sendMessage(id_user,id_sender,foto);
             $(".content_message").on("click",function (e) {
                 $("input").blur();
-            });
-            $("#send_message").on("click",function (e) {
-                e.preventDefault();
-                var message=$(".input_message").val();
-                $(".input_message").val("");
-                if(foto!==""){
-                    $(".content_message").append('<div class="container_chat darker">\n' +
-                        '                    <img src="https://proyectofinal-josemedinaruiz97.c9users.io/fotos_usuario/'+foto+'" alt="Avatar" class="right" style="width:100%;">\n' +
-                        '                    <p>'+message+'</p>\n' +
-                        '                    <span class="time-left">'+moment().format("HH:mm")+'</span>\n' +
-                        '                </div>');
-                    $(".content_message").scrollTop($('.content_message')[$('.content_message').length-1].scrollHeight, 1000);
-                }
-                $.ajax({
-                    url:"https://proyectofinal-josemedinaruiz97.c9users.io/sendMessage.php",
-                    method:"post",
-                    data:{data:JSON.stringify({id_user:id_user,id_user_conver:id_sender,message:message})},
-                    success:function (response) {
-                        var parsed_data=JSON.parse(response);
-                        var datos=JSON.parse(parsed_data.data);
-                        if(foto===""){
-                            $(".content_message").append('<div class="container_chat darker">\n' +
-                                '                    <img src="https://proyectofinal-josemedinaruiz97.c9users.io/fotos_usuario/'+datos.img+'" alt="Avatar" class="right" style="width:100%;">\n' +
-                                '                    <p>'+message+'</p>\n' +
-                                '                    <span class="time-left">'+moment().format("HH:mm")+'</span>\n' +
-                                '                </div>');
-                            foto=datos.img;
-                            $(".content_message").animate({ scrollTop: $('.content_message')[0].scrollHeight}, 1000);
-                        }
-
-
-                    }
-                });
             });
 
         });
@@ -143,12 +111,59 @@ function configButton(id_user,id_sender){
         window.location.assign("conversaciones.html");
     });
 }
-function sendMessage(foto){
-
-}
 function heightMessage(){
     var alto_pantalla=$(window).height();
     var alto_input=$(".content_input").height();
     var alto_header=$(".header").height();
     $(".content_message").height(alto_pantalla-alto_input-alto_header-15);
+    if(device.platform=="iOS"){
+        window.addEventListener('keyboardHeightWillChange', function (event) {
+            var alto_pantalla=$(window).height();
+            var alto_input=$(".content_input").height();
+            var alto_header=$(".header").height();
+            $(".content_message").height(alto_pantalla-alto_input-alto_header-event.keyboardHeight-15);
+            window.scrollTo(0,0);
+        });
+        window.addEventListener('scroll', function () {
+            window.scrollTo(0,0);
+        });
+    }
+}
+function sendMessage(id_user,id_sender,foto) {
+    $("#send_message").on("click",function (e) {
+        e.preventDefault();
+        var message = $(".input_message").val();
+        if (message === "") {
+            return true;
+        }
+        $(".input_message").val("");
+        if (foto !== "") {
+            $(".content_message").append('<div class="container_chat darker">\n' +
+                '                    <img src="https://proyectofinal-josemedinaruiz97.c9users.io/fotos_usuario/' + foto + '" alt="Avatar" class="right" style="width:100%;">\n' +
+                '                    <p>' + message + '</p>\n' +
+                '                    <span class="time-left">' + moment().format("HH:mm") + '</span>\n' +
+                '                </div>');
+            $(".content_message").scrollTop($('.content_message')[$('.content_message').length - 1].scrollHeight, 1000);
+        }
+        $.ajax({
+            url: "https://proyectofinal-josemedinaruiz97.c9users.io/sendMessage.php",
+            method: "post",
+            data: {data: JSON.stringify({id_user: id_user, id_user_conver: id_sender, message: message})},
+            success: function (response) {
+                var parsed_data = JSON.parse(response);
+                var datos = JSON.parse(parsed_data.data);
+                if (foto === "") {
+                    $(".content_message").append('<div class="container_chat darker">\n' +
+                        '                    <img src="https://proyectofinal-josemedinaruiz97.c9users.io/fotos_usuario/' + datos.img + '" alt="Avatar" class="right" style="width:100%;">\n' +
+                        '                    <p>' + message + '</p>\n' +
+                        '                    <span class="time-left">' + moment().format("HH:mm") + '</span>\n' +
+                        '                </div>');
+                    foto = datos.img;
+                    $(".content_message").animate({scrollTop: $('.content_message')[0].scrollHeight}, 1000);
+                    return foto;
+                }
+
+            }
+        });
+    });
 }

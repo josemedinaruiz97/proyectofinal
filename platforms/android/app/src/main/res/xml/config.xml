@@ -36,9 +36,6 @@
     <feature name="Keyboard">
         <param name="android-package" onload="true" value="org.apache.cordova.labs.keyboard.Keyboard" />
     </feature>
-    <feature name="Keyboard">
-        <param name="android-package" onload="true" value="io.ionic.keyboard.IonicKeyboard" />
-    </feature>
     <name>InstantMessage</name>
     <description>
         Este es un chat instantaneo para comunicarse entre varias personas

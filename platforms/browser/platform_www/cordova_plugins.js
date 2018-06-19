@@ -424,8 +424,7 @@ module.exports.metadata =
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-badge": "0.8.7",
     "cordova-plugin-local-notification": "0.9.0-beta.3",
-    "cordova-plugin-keyboard": "1.2.0",
-    "cordova-plugin-ionic-keyboard": "2.1.2"
+    "cordova-plugin-keyboard": "1.2.0"
 }
 // BOTTOM OF METADATA
 });

@@ -42,9 +42,6 @@
     },
     "cordova-plugin-keyboard": {
       "PACKAGE_NAME": "jose.medina"
-    },
-    "cordova-plugin-ionic-keyboard": {
-      "PACKAGE_NAME": "jose.medina"
     }
   },
   "dependent_plugins": {

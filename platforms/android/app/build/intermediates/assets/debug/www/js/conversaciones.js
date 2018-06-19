@@ -14,10 +14,7 @@ var app = {
             withoutConection();
             var form_data = new FormData();
             form_data.append("id_receiver", localStorage.getItem("id_user_login"));
-            var alto_pantalla=$(window).height();
-            var alto_header=$(".contenedor_header").height();
-            var alto_busqueda=$("#field_search").height();
-            $("#frcontact").height(alto_pantalla-alto_busqueda-alto_header-10);
+            heightContact();
             getUser(form_data);
             $(".btn_primario").on("click", function (e) {
                 localStorage.removeItem("id_user_login");
@@ -58,11 +55,10 @@ function getNotificaciones(id_user,primero,messages){
             var parsed_data=JSON.parse(response);
             if(parsed_data.success===true){
                 $.each(JSON.parse(parsed_data.data),function (i,e) {
-                    if($(".contacto[data-user='"+e.id+"']").length!=0){
-                        $(".contacto[data-user='"+e.id+"']").find(".notification").html('<a class="ui olive circular label">' + e.num_messages + '</a>');
-                        $(".contacto[data-user='"+e.id+"']").find(".description").html('<p>' + e.message + '</p>')
-                    }else{
-                        texto+='<div class="ui card contacto" data-user=' + e.id + '>\n' +
+                    if($(".contacto[data-user='"+e.id_sender+"']").length!=0){
+                        $(".contacto[data-user='"+e.id_sender+"']").remove();
+                    }
+                        texto+='<div class="ui card contacto" data-user=' + e.id_sender + '>\n' +
                             '                            <div class="content user">\n' +
                             '                            <div class="image">\n' +
                             '                            <img class="ui avatar user image" src="https://proyectofinal-josemedinaruiz97.c9users.io/fotos_usuario/' + e.img + '">\n' +
@@ -79,19 +75,24 @@ function getNotificaciones(id_user,primero,messages){
                             '                        </div>\n' +
                             '                        </div>\n' +
                             '                        </div>';
-                    }
                     if(messages[e.id]!=e.num_messages){
+
                         cordova.plugins.notification.local.schedule({
                             id:e.id,
                             title: e.firstname,
                             text: e.message,
-                            foreground: true
+                            foreground: true,
                         });
                     }
                     messages[e.id]=e.num_messages;
 
                 });
-                $(".contacto").append(texto);
+                $(".contenedor_usuarios").prepend(texto);
+                $(".contacto").on("click", function (e) {
+                    var id_user = $(this).data("user");
+                    sessionStorage.setItem("id_receiver", id_user);
+                    window.location.assign("conversacion.html");
+                });
             }
             interval=setTimeout(getNotificaciones(id_user,0,messages),5000);
         }
@@ -173,4 +174,22 @@ function getUser(form_data) {
             }
         }
     });
+}
+function heightContact(){
+    var alto_pantalla=$(window).height();
+    var alto_header=$(".contenedor_header").height();
+    var alto_busqueda=$("#field_search").height();
+    $("#frcontact").height(alto_pantalla-alto_busqueda-alto_header-10);
+    if(device.platform=="iOS"){
+        window.addEventListener('keyboardHeightWillChange', function (event) {
+            var alto_pantalla=$(window).height();
+            var alto_header=$(".contenedor_header").height();
+            var alto_busqueda=$("#field_search").height();
+            $("#frcontact").height(alto_pantalla-event.keyboardHeight-alto_busqueda-alto_header-10);
+            window.scrollTo(0,0);
+        });
+        window.addEventListener('scroll', function () {
+            window.scrollTo(0,0);
+        });
+    }
 }

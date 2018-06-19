@@ -40,6 +40,9 @@ function uploadPhoto(form_data) {
                 });
                 if (file) {
                     form_data.append("fichero",file);
+                    if(device.platform=="iOS"){
+                        form_data.append("ios",1);
+                    }
                     $.ajax({
                         url: "https://proyectofinal-josemedinaruiz97.c9users.io/subirFoto.php",
                         method: "post",

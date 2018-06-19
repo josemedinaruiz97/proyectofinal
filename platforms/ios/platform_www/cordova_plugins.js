@@ -239,14 +239,6 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-ionic-keyboard.keyboard",
-    "file": "plugins/cordova-plugin-ionic-keyboard/www/ios/keyboard.js",
-    "pluginId": "cordova-plugin-ionic-keyboard",
-    "clobbers": [
-      "window.Keyboard"
-    ]
-  },
-  {
     "id": "cordova-plugin-keyboard.keyboard",
     "file": "plugins/cordova-plugin-keyboard/www/keyboard.js",
     "pluginId": "cordova-plugin-keyboard",
@@ -367,7 +359,6 @@ module.exports.metadata =
   "cordova-plugin-dialogs": "2.0.1",
   "cordova-plugin-file": "6.0.1",
   "cordova-plugin-inappbrowser": "3.0.0",
-  "cordova-plugin-ionic-keyboard": "2.1.2",
   "cordova-plugin-ios-camera-permissions": "1.2.0",
   "cordova-plugin-keyboard": "1.2.0",
   "cordova-plugin-local-notification": "0.9.0-beta.3",

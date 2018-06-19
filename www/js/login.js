@@ -38,12 +38,22 @@ function errorForm(frm){
 }
 function logIn(frm) {
     frm.submit(function (e) {
+        var form_data = new FormData();
+        var valores=frm.serializeObject();
+        $.each(valores,function (i,e) {
+            if(i=="password"){
+                e=$.md5(e);
+            }
+            form_data.append(i,e);
+        });
         e.preventDefault();
         if ($(frm).form('is valid')) {
             $.ajax({
                 method: frm.attr("method"),
-                data: frm.serialize(),
+                data: form_data,
                 url: frm.attr("action"),
+                processData: false,
+                contentType: false,
                 success: function (response) {
                     var data_parsed = JSON.parse(response);
                     if (data_parsed.success == true) {
