@@ -44,7 +44,7 @@ function uploadPhoto(form_data) {
                         form_data.append("ios",1);
                     }
                     $.ajax({
-                        url: "https://proyectofinal-josemedinaruiz97.c9users.io/subirFoto.php",
+                        url: "https://proyectofinal-josemedinaruiz97.c9users.io/uploadPhoto.php",
                         method: "post",
                         processData: false,
                         data: form_data,

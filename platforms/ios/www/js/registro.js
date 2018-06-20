@@ -25,6 +25,9 @@ var app = {
                         form_data.append(i,e);
                     });
                     if(imagen!==null){
+                        if(device.platform=="iOS"){
+                            form_data.append("ios",1);
+                        }
                         form_data.append("fichero", imagen);
                     }
                     $.ajax({
@@ -87,17 +90,20 @@ var app = {
                     }
                 })
             });
-            var object = {};
-            $.each($(frm).serializeObject(), function (i, e) {
-                if(i==="email"){
-                    object[i] = {identifier: i, rules: [{type: 'email', prompt: 'Error campo ' + transaltefield(i) + ' vacio'}]}
-                }else{
-                    object[i] = {identifier: i, rules: [{type: 'empty', prompt: 'Error campo ' + transaltefield(i) + ' vacio'}]}
-                }
-            });
-            $('.ui.form').form({fields: object});
+            errorForm();
         });
     },
 };
 
 app.initialize();
+function errorForm() {
+    var object = {};
+    $.each($(frm).serializeObject(), function (i, e) {
+        if(i==="email"){
+            object[i] = {identifier: i, rules: [{type: 'email', prompt: 'Error campo ' + transaltefield(i) + ' vacio'}]}
+        }else{
+            object[i] = {identifier: i, rules: [{type: 'empty', prompt: 'Error campo ' + transaltefield(i) + ' vacio'}]}
+        }
+    });
+    $('.ui.form').form({fields: object});
+}

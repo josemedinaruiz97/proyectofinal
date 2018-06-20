@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/login.js">
+      <file leaf-file-name="iniciarSesion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/iniciarSesion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="195">
+              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding>
                 <element signature="n#!!block;n#errorForm#0" expanded="false" />
                 <element signature="n#!!block;n#signIn#0" expanded="false" />
@@ -24,16 +24,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conversaciones.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conversaciones.html">
+      <file leaf-file-name="vistaUsuario.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistaUsuario.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="46" column="6" lean-forward="false" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+            <state relative-caret-position="625">
+              <caret line="70" column="7" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vistaUsuario.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/vistaUsuario.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="86" column="27" lean-forward="false" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,9 +67,14 @@
       <file leaf-file-name="registro.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/registro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="47" column="61" lean-forward="true" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-              <folding />
+            <state relative-caret-position="3">
+              <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+              <folding>
+                <element signature="e#2388#3025#0" expanded="false" />
+                <element signature="e#3078#3711#0" expanded="false" />
+                <element signature="n#!!block;n#errorForm#0" expanded="false" />
+                <element signature="e#3877#4176#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/registro.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="444">
-              <caret line="100" column="80" lean-forward="true" selection-start-line="100" selection-start-column="80" selection-end-line="100" selection-end-column="80" />
+              <caret line="100" column="80" lean-forward="false" selection-start-line="100" selection-start-column="80" selection-end-line="100" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -88,41 +101,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conversacion.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conversacion.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/conversacion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="77" column="63" lean-forward="false" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="63" />
+            <state relative-caret-position="-268">
+              <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
               <folding>
                 <element signature="n#!!block;n#getMessages#0" expanded="false" />
                 <element signature="n#!!block;n#getFoto#0" expanded="false" />
-                <element signature="n#!!block;n#configButton#0" expanded="false" />
                 <element signature="n#!!block;n#sendMessage#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-              <folding>
-                <element signature="e#805#837#0" expanded="false" />
-                <element signature="e#854#990#0" expanded="false" />
-                <element signature="e#1006#1039#0" expanded="false" />
-                <element signature="e#1049#1092#0" expanded="false" />
-                <element signature="e#1113#1135#0" expanded="false" />
-                <element signature="e#1158#1184#0" expanded="false" />
-                <element signature="e#1209#1231#0" expanded="false" />
-                <element signature="e#1385#1440#0" expanded="false" />
-                <element signature="e#1464#1521#0" expanded="false" />
-                <element signature="e#1542#1648#0" expanded="false" />
-                <element signature="e#1675#1739#0" expanded="false" />
-                <element signature="e#1752#1790#0" expanded="false" />
-                <element signature="e#1802#1839#0" expanded="false" />
-                <element signature="e#1853#1914#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -138,15 +125,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conversaciones.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="conversaciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/conversaciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="199">
+              <caret line="159" column="44" lean-forward="false" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
               <folding>
-                <element signature="n#!!block;n#getNotificaciones#0" expanded="false" />
-                <element signature="n#!!block;n#getUser#0" expanded="false" />
-                <element signature="e#8238#8446#0" expanded="false" />
+                <element signature="n#!!block;n#getNotifications#0" expanded="false" />
+                <element signature="e#8236#8444#0" expanded="false" />
+                <element signature="n#!!block;n#heightContact#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -171,6 +158,7 @@
       <find>id_user_login</find>
       <find>background-i</find>
       <find>sendM</find>
+      <find>getNotificaciones</find>
       <find>blu</find>
     </findStrings>
     <replaceStrings>
@@ -202,14 +190,14 @@
         <option value="$PROJECT_DIR$/js/functions.js" />
         <option value="$PROJECT_DIR$/conversaciones.html" />
         <option value="$PROJECT_DIR$/conversacion.html" />
-        <option value="$PROJECT_DIR$/js/vistausuario.js" />
         <option value="$PROJECT_DIR$/js/conversacion.js" />
-        <option value="$PROJECT_DIR$/js/conversaciones.js" />
-        <option value="$PROJECT_DIR$/js/registro.js" />
-        <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/js/md5.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/registro.html" />
+        <option value="$PROJECT_DIR$/js/vistausuario.js" />
+        <option value="$PROJECT_DIR$/js/login.js" />
+        <option value="$PROJECT_DIR$/js/registro.js" />
+        <option value="$PROJECT_DIR$/js/conversaciones.js" />
       </list>
     </option>
   </component>
@@ -321,12 +309,12 @@
       <workItem from="1528040660598" duration="817000" />
       <workItem from="1528041561036" duration="132098000" />
       <workItem from="1528826245526" duration="37936000" />
-      <workItem from="1529275948500" duration="19808000" />
+      <workItem from="1529275948500" duration="22465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209797000" />
+    <option name="totallyTimeSpent" value="212454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="0" />
@@ -337,7 +325,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -384,17 +372,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/login.js</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/js/iniciarSesion.js</url>
+          <line>43</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/registro.js</url>
-          <line>55</line>
+          <line>58</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/vistausuario.js</url>
+          <url>file://$PROJECT_DIR$/js/vistaUsuario.js</url>
           <line>80</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -410,13 +398,19 @@
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/conversaciones.js</url>
+          <line>177</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/js/iniciarSesion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
@@ -445,7 +439,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/principal.ejs" />
     <entry file="file://$PROJECT_DIR$/php/ajax.php" />
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/js/iniciarSesion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -492,7 +486,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/js/iniciarSesion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
@@ -520,7 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/js/iniciarSesion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
@@ -540,7 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/js/iniciarSesion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
@@ -568,7 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/js/iniciarSesion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
@@ -592,7 +586,6 @@
           <folding>
             <element signature="n#!!block;n#getMessages#0" expanded="false" />
             <element signature="n#!!block;n#getFoto#0" expanded="false" />
-            <element signature="n#!!block;n#configButton#0" expanded="false" />
             <element signature="n#!!block;n#sendMessage#0" expanded="false" />
           </folding>
         </state>
@@ -609,6 +602,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,26 +611,6 @@
         <state relative-caret-position="60">
           <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vistausuario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="70" column="7" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/vistausuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="43" column="50" lean-forward="false" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
-          <folding>
-            <element signature="n#!!block;n#getDataUser#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,9 +650,9 @@
         <state relative-caret-position="9">
           <caret line="46" column="6" lean-forward="false" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -699,22 +673,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/conversaciones.js">
+    <entry file="file://$PROJECT_DIR$/js/md5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="4020">
+          <caret line="268" column="49" lean-forward="false" selection-start-line="268" selection-start-column="49" selection-end-line="268" selection-end-column="49" />
           <folding>
-            <element signature="n#!!block;n#getNotificaciones#0" expanded="false" />
-            <element signature="n#!!block;n#getUser#0" expanded="false" />
-            <element signature="e#8238#8446#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/registro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="444">
+          <caret line="100" column="80" lean-forward="false" selection-start-line="100" selection-start-column="80" selection-end-line="100" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/iniciarSesion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="n#!!block;n#errorForm#0" expanded="false" />
             <element signature="n#!!block;n#signIn#0" expanded="false" />
@@ -724,18 +704,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/registro.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="47" column="61" lean-forward="true" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+        <state relative-caret-position="3">
+          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="e#2388#3025#0" expanded="false" />
+            <element signature="e#3078#3711#0" expanded="false" />
+            <element signature="n#!!block;n#errorForm#0" expanded="false" />
+            <element signature="e#3877#4176#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vistaUsuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="86" column="27" lean-forward="false" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/md5.js">
+    <entry file="file://$PROJECT_DIR$/vistaUsuario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4020">
-          <caret line="268" column="49" lean-forward="false" selection-start-line="268" selection-start-column="49" selection-end-line="268" selection-end-column="49" />
+        <state relative-caret-position="625">
+          <caret line="70" column="7" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/conversacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#getMessages#0" expanded="false" />
+            <element signature="n#!!block;n#getFoto#0" expanded="false" />
+            <element signature="n#!!block;n#sendMessage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -748,23 +753,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registro.html">
+    <entry file="file://$PROJECT_DIR$/js/conversaciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="100" column="80" lean-forward="true" selection-start-line="100" selection-start-column="80" selection-end-line="100" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/conversacion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="77" column="63" lean-forward="false" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="63" />
+        <state relative-caret-position="199">
+          <caret line="159" column="44" lean-forward="false" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
           <folding>
-            <element signature="n#!!block;n#getMessages#0" expanded="false" />
-            <element signature="n#!!block;n#getFoto#0" expanded="false" />
-            <element signature="n#!!block;n#configButton#0" expanded="false" />
-            <element signature="n#!!block;n#sendMessage#0" expanded="false" />
+            <element signature="n#!!block;n#getNotifications#0" expanded="false" />
+            <element signature="e#8236#8444#0" expanded="false" />
+            <element signature="n#!!block;n#heightContact#0" expanded="false" />
           </folding>
         </state>
       </provider>

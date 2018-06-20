@@ -10,6 +10,11 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         $(function() {
+            cordova.plugins.notification.local.hasPermission(function(granted){
+                if(!granted){
+                    cordova.plugins.notification.local.registerPermission(function(granted){});
+                }
+            });
             withoutConection();
             if(localStorage.getItem("id_user_login")!==undefined && localStorage.getItem("id_user_login")!==null){
                 window.location.assign("conversaciones.html");

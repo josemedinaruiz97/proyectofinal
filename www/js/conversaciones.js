@@ -15,21 +15,21 @@ var app = {
             var form_data = new FormData();
             form_data.append("id_receiver", localStorage.getItem("id_user_login"));
             heightContact();
-            getUser(form_data);
+            getUsers(form_data);
             $(".btn_primario").on("click", function (e) {
                 localStorage.removeItem("id_user_login");
                 window.location.assign("index.html");
             });
             $(".btn_secundario").on("click", function (e) {
                 sessionStorage.setItem("id_receiver",localStorage.getItem("id_user_login"));
-                window.location.assign("vistausuario.html");
+                window.location.assign("vistaUsuario.html");
             });
             $('.search_user').on('keyup paste', function (e) {
                 var busqueda=$(this).val();
                 form_data.append("busqueda",busqueda);
-                getUser(form_data);
+                getUsers(form_data);
             });
-            getNotificaciones(localStorage.getItem("id_user_login"),1,messages);
+            getNotifications(localStorage.getItem("id_user_login"),1,messages);
             $(".contenedor_usuarios").on("click",function (e) {
                 $("input").blur();
             });
@@ -39,12 +39,12 @@ var app = {
 
 app.initialize();
 
-function getNotificaciones(id_user,primero,messages){
+function getNotifications(id_user, primero, messages){
     var form_data = new FormData();
     form_data.append("id_receiver", id_user);
     form_data.append("primero", primero);
     $.ajax({
-        url:"https://proyectofinal-josemedinaruiz97.c9users.io/getNotificaciones.php",
+        url:"https://proyectofinal-josemedinaruiz97.c9users.io/getNotifications.php",
         method:"post",
         processData: false,
         data: form_data,
@@ -94,17 +94,17 @@ function getNotificaciones(id_user,primero,messages){
                     window.location.assign("conversacion.html");
                 });
             }
-            interval=setTimeout(getNotificaciones(id_user,0,messages),5000);
+            interval=setTimeout(getNotifications(id_user,0,messages),5000);
         }
     });
 }
-function getUser(form_data) {
+function getUsers(form_data) {
     $.ajax({
         method: "post",
         processData: false,
         data: form_data,
         contentType: false,
-        url: "https://proyectofinal-josemedinaruiz97.c9users.io/getUsuarios.php",
+        url: "https://proyectofinal-josemedinaruiz97.c9users.io/getUsers.php",
         success: function (response) {
             var texto="";
             var parsed_data = JSON.parse(response);
@@ -157,7 +157,7 @@ function getUser(form_data) {
                     e.stopPropagation();
                     var id_user=$(this).closest(".contacto").data("user");
                     sessionStorage.setItem("id_receiver",id_user);
-                    window.location.assign("vistausuario.html");
+                    window.location.assign("vistaUsuario.html");
 
                 });
             } else {

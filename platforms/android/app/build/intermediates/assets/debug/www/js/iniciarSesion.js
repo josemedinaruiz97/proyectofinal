@@ -10,6 +10,11 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         $(function() {
+            cordova.plugins.notification.local.hasPermission(function(granted){
+                if(!granted){
+                    cordova.plugins.notification.local.registerPermission(function(granted){});
+                }
+            });
             withoutConection();
             if(localStorage.getItem("id_user_login")!==undefined && localStorage.getItem("id_user_login")!==null){
                 window.location.assign("conversaciones.html");
@@ -38,12 +43,22 @@ function errorForm(frm){
 }
 function logIn(frm) {
     frm.submit(function (e) {
+        var form_data = new FormData();
+        var valores=frm.serializeObject();
+        $.each(valores,function (i,e) {
+            if(i=="password"){
+                e=$.md5(e);
+            }
+            form_data.append(i,e);
+        });
         e.preventDefault();
         if ($(frm).form('is valid')) {
             $.ajax({
                 method: frm.attr("method"),
-                data: frm.serialize(),
+                data: form_data,
                 url: frm.attr("action"),
+                processData: false,
+                contentType: false,
                 success: function (response) {
                     var data_parsed = JSON.parse(response);
                     if (data_parsed.success == true) {

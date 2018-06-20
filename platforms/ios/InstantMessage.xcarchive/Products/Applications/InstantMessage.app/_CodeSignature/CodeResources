@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		1x1st6gHn78C5/RufpKD4DA0UWI=
+		lH4Tj3nuhSWXGh6MrYPzpZKgN2g=
 		</data>
 		<key>CDVCapture.bundle/controls_bg.png</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		5yqOLxufTYrndy46oMfuGBvI1u8=
+		JVn6v4UhZsSUlgdYSySkvNW3/WI=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		k60Dm11FU/wInYEvOhM/mjqdOLU=
+		wDJHGDv1+5FT3UcGMyGUFU5aEDA=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -314,7 +314,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		9HD3gRVDYzLr2KhkVKdhVQiVB+4=
+		TpcCZBjim/p4m51i9tw6R0KfGb0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -430,7 +430,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		UcfqZq2P02YfobnwIC73YBEs5uE=
+		xAv95prrQc9VfDqZ0PE43bUn4/0=
 		</data>
 		<key>www/js/conversacion.js</key>
 		<data>
@@ -438,11 +438,15 @@
 		</data>
 		<key>www/js/conversaciones.js</key>
 		<data>
-		EoPnJme61x1OFLnuuOeB/pQT+HU=
+		gKsTC8ylu5NLna3c0JhZbeNzoZA=
 		</data>
 		<key>www/js/functions.js</key>
 		<data>
 		rWE/ZvG+EuO3zOAbVpyvObjD+fA=
+		</data>
+		<key>www/js/iniciarSesion.js</key>
+		<data>
+		HJORrImuee1DwDUq/55LTy2xWUw=
 		</data>
 		<key>www/js/jquery-3.3.1.js</key>
 		<data>
@@ -456,10 +460,6 @@
 		<data>
 		7jn433sDNSmdyhe4OAMadkEHXsY=
 		</data>
-		<key>www/js/login.js</key>
-		<data>
-		TCjrBLNfSNzWw48htMA9iDkyLjA=
-		</data>
 		<key>www/js/md5.js</key>
 		<data>
 		Gwo3hMKOt/OmOBQhNyvlZ5lamxg=
@@ -470,7 +470,7 @@
 		</data>
 		<key>www/js/registro.js</key>
 		<data>
-		HjHz5CRV2KVh15J0aQ88eKWgjUE=
+		y1S77xRFp1v3T8oddSRmz0L4Ouw=
 		</data>
 		<key>www/js/semantic.min.js</key>
 		<data>
@@ -484,9 +484,9 @@
 		<data>
 		abizOsvWIoGSDUtzwxDGbEz8iZI=
 		</data>
-		<key>www/js/vistausuario.js</key>
+		<key>www/js/vistaUsuario.js</key>
 		<data>
-		EqwlIxpQeP8f4LkFExdP5c08SH0=
+		pPYndxR0N1L8dMop/FAk8arEe6A=
 		</data>
 		<key>www/plugins/cordova-plugin-badge/www/badge.js</key>
 		<data>
@@ -668,9 +668,9 @@
 		<data>
 		1qjdNzDNF5XNj5pNRowh/ZDSZig=
 		</data>
-		<key>www/vistausuario.html</key>
+		<key>www/vistaUsuario.html</key>
 		<data>
-		ys3b8Xpw5z+VY9vQ/jPrIxBjxpk=
+		+5rgJ4z/LKDaPjDBgaS0bFjZr18=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -932,11 +932,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1x1st6gHn78C5/RufpKD4DA0UWI=
+			lH4Tj3nuhSWXGh6MrYPzpZKgN2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			X0YU38fiC9xj7LvXpBs+Edd3ZGo9ykzcWoTse6HIU4A=
+			Kf+n7ParArxeKVTe55/uBGrbS4GFGi5LLgWHwUXy+ig=
 			</data>
 		</dict>
 		<key>CDVCapture.bundle/controls_bg.png</key>
@@ -1226,11 +1226,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5yqOLxufTYrndy46oMfuGBvI1u8=
+			JVn6v4UhZsSUlgdYSySkvNW3/WI=
 			</data>
 			<key>hash2</key>
 			<data>
-			FCBRfpSCXWQ47QshNRRAQjj1rNWSkjErzAEWd7v/2zU=
+			HRjGcd0CLSsULC4pz5KxIEZ78KkziMfyRztrvngLGwo=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1248,11 +1248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k60Dm11FU/wInYEvOhM/mjqdOLU=
+			wDJHGDv1+5FT3UcGMyGUFU5aEDA=
 			</data>
 			<key>hash2</key>
 			<data>
-			FaYgvs/jKLqdJ2ySZ3gyoKZsuRZAyyypJccuM4wN1G0=
+			mWNseW9SzOu2pA3sCRovHXyWyLBTeNYus8izaGfwb3o=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -1468,11 +1468,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9HD3gRVDYzLr2KhkVKdhVQiVB+4=
+			TpcCZBjim/p4m51i9tw6R0KfGb0=
 			</data>
 			<key>hash2</key>
 			<data>
-			oBZlff5vPTdFDdTm3g99xNb3eDUgG/StjNrO3FbRcew=
+			NjZz0xz2oCfLQ5yUYB26QXuuoROsGcqa1KBmup119dM=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -1776,11 +1776,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UcfqZq2P02YfobnwIC73YBEs5uE=
+			xAv95prrQc9VfDqZ0PE43bUn4/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mihUPLW28jutCwPUZMDG3ohewYe8lFd8Ov8acal0vYg=
+			GFdjehCdXYePY26sfbhUIPH1vatw+Td3D7teu/cg8lI=
 			</data>
 		</dict>
 		<key>www/js/conversacion.js</key>
@@ -1798,11 +1798,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EoPnJme61x1OFLnuuOeB/pQT+HU=
+			gKsTC8ylu5NLna3c0JhZbeNzoZA=
 			</data>
 			<key>hash2</key>
 			<data>
-			kLJ2ypXMjx2r7ykz4F7ZaCCQkKYQ1oixG7LhjgU8h5Y=
+			KuVOUfzE/kOGjW46N4w6IVEfsqG67KEHzwd9XJA5Qgw=
 			</data>
 		</dict>
 		<key>www/js/functions.js</key>
@@ -1814,6 +1814,17 @@
 			<key>hash2</key>
 			<data>
 			Xg1S+a0NJxAlVSugBHixbliTY5VTngiu/tJUEX0xey8=
+			</data>
+		</dict>
+		<key>www/js/iniciarSesion.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HJORrImuee1DwDUq/55LTy2xWUw=
+			</data>
+			<key>hash2</key>
+			<data>
+			6TltPHn5ylmuP7cl6PP1wCq9SabsOjp3UUShU3OBdb4=
 			</data>
 		</dict>
 		<key>www/js/jquery-3.3.1.js</key>
@@ -1849,17 +1860,6 @@
 			E8KRdFk/LTaaCBoQIV/rFNc0s3ICQQiOHFT4Cioifa8=
 			</data>
 		</dict>
-		<key>www/js/login.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TCjrBLNfSNzWw48htMA9iDkyLjA=
-			</data>
-			<key>hash2</key>
-			<data>
-			7gWOngr/tu/1scRhgH+g45B0+qRifULDMrVTL0m/ZZ8=
-			</data>
-		</dict>
 		<key>www/js/md5.js</key>
 		<dict>
 			<key>hash</key>
@@ -1886,11 +1886,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HjHz5CRV2KVh15J0aQ88eKWgjUE=
+			y1S77xRFp1v3T8oddSRmz0L4Ouw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uu3czrEqkbD6vO0GAxaXiwB+S5B3XJWk2b2YEWfufeM=
+			ZGlU4r/NLu2lD1ebWJFhgup7kOAj0L7T7nr/g9zqBBc=
 			</data>
 		</dict>
 		<key>www/js/semantic.min.js</key>
@@ -1926,15 +1926,15 @@
 			G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=
 			</data>
 		</dict>
-		<key>www/js/vistausuario.js</key>
+		<key>www/js/vistaUsuario.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EqwlIxpQeP8f4LkFExdP5c08SH0=
+			pPYndxR0N1L8dMop/FAk8arEe6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			RwSS7dHko/UjOZFVoxDprK6mJ7BUnuuyGFHxnqvS7II=
+			lMbYVALp9ep32Cxx7LD6tXCzQjkX/qV0M14MS4y7EYI=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-badge/www/badge.js</key>
@@ -2432,15 +2432,15 @@
 			kyLX9KmOYbhf67YUVeCcbhB0TFK576c5JZreVSd66Jg=
 			</data>
 		</dict>
-		<key>www/vistausuario.html</key>
+		<key>www/vistaUsuario.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ys3b8Xpw5z+VY9vQ/jPrIxBjxpk=
+			+5rgJ4z/LKDaPjDBgaS0bFjZr18=
 			</data>
 			<key>hash2</key>
 			<data>
-			IEV5Wx/K5QRn6EH1cWEj/bPvFjRguzWyV83rX+3msJ8=
+			WUfhBIuD3AWhx4XM0Wd6gnhwwABvyaWv7+kTkokAc4k=
 			</data>
 		</dict>
 	</dict>
